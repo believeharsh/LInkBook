@@ -1,0 +1,172 @@
+ /* * font import aera  */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=PT+Sans:ital@0;1&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=PT+Sans:ital@0;1&family=Tajawal:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=PT+Sans:ital@0;1&family=Tajawal:wght@300&family=Tinos&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=PT+Sans:ital@0;1&family=Space+Mono:ital@1&family=Tajawal:wght@300&family=Tinos&family=Ubuntu:wght@300&display=swap');
+
+
+#favicon{
+    border-radius: 50px;
+}
+
+ /* * main body of the page section  */
+body{
+    /* background-color: rgb(248, 249, 238);
+     */
+     background-image: url("https://media.istockphoto.com/id/1294598267/vector/violet-abstract-geometric-template.jpg?s=612x612&w=0&k=20&c=NC6LTIS_DWSyZbZW_MYg6Tlf8PgofKFgSK0AeMn6wxs=");
+     background-size: cover;
+}
+
+/* * main-continer of this project */
+.main-continer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* * display-image styling aera  */
+.imgage-container {
+    /* height: 270px;
+    width: 120px; */
+    /* border: 2px solid black; */
+}
+
+#My-picture {
+    height: 450px;
+    width: 330px;
+    /* margin: -98px 0px 0px -159px; */
+}
+
+
+/* * social-links aera and styling */
+
+
+
+/* .Social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px;
+    width: 150px;
+    border: 3.5px groove black;
+    margin: 50px 0px 0px 8px;
+    border-radius: 10px;
+    padding: 6px 3px 3px 2px;
+    background-image: url("https://wallpapercave.com/wp/wp5467248.jpg");
+    background-size: cover;
+} */
+
+.Social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 343px;
+    width: 215px;
+    border: 3.5px groove black;
+    /* margin: 20px 0px 0px 8px; */
+    border-radius: 10px;
+    padding: 6px 3px 3px 2px;
+    background-image: url(https://wallpapercave.com/wp/wp5467248.jpg);
+    background-size: cover;
+}
+
+
+.profile-img img {
+    border-radius: 50px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.profile-img img:hover{
+    height: 65px ;
+    border-radius: 45px;
+   
+}
+
+
+.Name {
+    font-size: 14px;
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+}
+
+.headline {
+    font-size: 7px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+.link-boxes{
+    margin-top: 9px ;
+}
+
+
+ .links{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    background: rgb(255 255 255 / 65%);
+    padding: 2px;
+    width: 160px;
+    margin: 3px 2px 2px 2px;
+    text-align: center;
+    border: 1px ridge black;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px #000000;
+    cursor: pointer;
+}
+
+.links:hover{
+  font-size: 17.5px;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+    color: #000000;
+}
+
+
+/* * bottom icons of the social link container */
+
+.last-icons {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.last-icons:hover{
+    font-size: 13px;
+}
+
+.last-icons a {
+    color: #fffefe;
+    text-shadow: 0.7px 0.3px 0.7px #090808;
+    font-size: 1.1em;
+}
+
+
+/* * Linkbook last text  */
+.LInkBook{
+    font-size: 10px;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    margin-top: 26px;
+    color: rgb(254, 254, 254);
+}
+.LInkBook:hover{
+margin-top: -10px -10px -10px -10px ;
+}
+
+
+/* responsive work */
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 360px) {
+    .main-continer {
+      flex-direction: column;
+    }
+  }
+  
+  
