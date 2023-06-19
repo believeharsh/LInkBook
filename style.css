@@ -11,10 +11,12 @@
 
  /* * main body of the page section  */
 body{
-    /* background-color: rgb(248, 249, 238);
-     */
-     background-image: url("https://media.istockphoto.com/id/1294598267/vector/violet-abstract-geometric-template.jpg?s=612x612&w=0&k=20&c=NC6LTIS_DWSyZbZW_MYg6Tlf8PgofKFgSK0AeMn6wxs=");
+   
+     /* background-image: url("https://i.redd.it/vr81495u2d091.jpg");
      background-size: cover;
+     width: 100%;
+     background-repeat: no-repeat; */
+     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
 
 /* * main-continer of this project */
@@ -163,10 +165,10 @@ margin-top: -10px -10px -10px -10px ;
 /* responsive work */
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
     .main-continer {
       flex-direction: column;
     }
   }
-  
+   */
   
